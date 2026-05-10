@@ -17,10 +17,10 @@ to identify high-risk segments and quantify revenue at risk.
 - Which inactive customers are most at risk of churning next?
 
 ## Key Findings
-- 🔴 Germany has a **~32% churn rate** — 2x higher than France and Spain
+- 🔴 Germany has a **~32.4% churn rate** — 2x higher than France and Spain 
 - 🔴 Customers aged **46–60 with 3+ products** churn at nearly 100%
-- 💰 Total estimated **revenue at risk: $X million** from churned customers
-- ⚠️ **$X million** in future revenue at risk from inactive members still with the bank
+- 💰 Total estimated **revenue at risk: $206.69 million** from churned customers
+- ⚠️ **355.9 million** in future revenue at risk from inactive members still with the bank
 
 ## SQL Skills Demonstrated
 | Skill | Used In |
@@ -34,7 +34,6 @@ to identify high-risk segments and quantify revenue at risk.
 ## File Structure
 | File | Description |
 |---|---|
-| `sql/01_setup.sql` | Database setup and table creation |
-| `sql/02_exploration.sql` | Data exploration — distributions and patterns |
-| `sql/03_churn_analysis.sql` | Churn rate analysis using CTEs and window functions |
-| `sql/04_revenue_cohort.sql` | Revenue at risk and cohort segmentation |
+| `sql/01_setup&exploration.sql` | Database setup and exploration - distributions and patterns|
+| `sql/02_churn_analysis.sql` | Churn rate analysis using CTEs and window functions |
+| `sql/03_revenue_cohort.sql` | Revenue at risk and cohort segmentation |
