@@ -38,11 +38,3 @@ to identify high-risk segments and quantify revenue at risk.
 | `sql/02_exploration.sql` | Data exploration — distributions and patterns |
 | `sql/03_churn_analysis.sql` | Churn rate analysis using CTEs and window functions |
 | `sql/04_revenue_cohort.sql` | Revenue at risk and cohort segmentation |
-
-
-
-## How to Run
-1. Download `data/customer_churn.csv`
-2. Run `sql/01_setup.sql` to create the database and table
-3. Import the CSV using MySQL Workbench Table Import Wizard
-4. Run files `02` through `04` in order
